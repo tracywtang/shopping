@@ -1,0 +1,5 @@
+export let addToCarts='addToCarts'
+export let increaseQuantityAT='increaseQuantityAT'
+export let decreaseQuantityAT='decreaseQuantityAT'
+export let clearBasketAT='clearBasketAT'
+export let clearAllAT='clearAllAT'

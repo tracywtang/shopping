@@ -1,0 +1,189 @@
+/* overall size override */
+.MuiPaper-root{
+    width: 600px !important;
+}
+
+
+.basket{
+    width: 568px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position:relative;
+}
+
+/* top  */
+.basketTop{
+    width: 568px;
+    height: 59px;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.basketTopL{
+    width: 200px;
+    height: 21px;
+    display: flex;
+}
+.basketTopL1{
+    width: 80px;
+    height: 21px;
+    font-size: 13px;   
+}
+.basketTopL2{
+    font-size: 11px;
+}
+.basketTopR{
+    width: 150px;
+    height: 37px;
+    display: flex;
+}
+.basketTopR1{
+    width: 50px;
+    height: 37px;
+    border: 1px solid grey;
+    line-height: 37px;
+    text-align: center;
+    font-size: 11px;
+}
+.basketTopR2{
+    width: 93px;
+    height: 37px;
+    border: 1px solid grey;
+    line-height: 37px;
+    text-align: center;
+    font-size: 11px;
+}
+
+/* list items */
+.basketList{
+    width: 566px;
+    height: 92px;
+    margin-left: 10px;
+    border: 1px solid grey;
+    margin-bottom: 12px;
+    display: flex;
+    align-items: center;
+}
+.listL1{
+    width: 30px;
+    height: 90px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid grey;
+}
+.listL1Top{
+    width: 30px;
+    height: 44px;
+    text-align: center;
+    line-height: 45px;
+    border-bottom: 1px solid grey;
+    border-right: 1px solid grey;
+    cursor: pointer;
+}
+.listL1Bottom{
+    width: 30px;
+    height: 44px;
+    text-align: center;
+    line-height: 45px;
+    border-right: 1px solid grey;
+    cursor: pointer;
+}
+.listL2 img{
+    width: 90px;
+    height: 92px;
+    object-fit: contain;
+}
+
+.listM{
+    width: 292px;
+    height: 76px;
+    margin-right: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.listMTop{
+    width: 290px;
+    height: 30px;
+    font-size: 12px;
+}
+.listMBottom{
+    width: 290px;
+    height: 34px;
+    display: flex;
+}
+.listMBottom1,.listMBottom2,.listMBottom3{
+    width: 97px;
+    height: 34px;
+}
+.listMBottom1T,.listMBottom2T,.listMBottom3T{
+    width: 97px;
+    height: 13px;
+    font-size: 11px;
+    color: grey;
+}
+.listMBottom1B,.listMBottom2B,.listMBottom3B{
+    width: 97px;
+    height: 15px;
+    font-size: 11px;
+}
+.listMBottom3B{
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+}
+.listR1{
+    width: 60px;
+    height: 18px;
+    margin-right: 15px;
+    font-size: 12px;
+}
+.listR2{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid grey;
+}
+
+/* bottom part */
+.basketCheckout{
+    width: 568px;
+    height: 75px;
+    margin-left: 10px;
+    position: absolute;
+    top: 500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.basketCheckoutL{
+    width: 92px;
+    height: 75px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.basketCheckoutLTop{
+    width: 92px;
+    height: 24px;
+    font-size: 11px;
+}
+.basketCheckoutLBottom{
+    width: 92px;
+    height: 27px;
+    font-size: 15px;
+    color: black;
+}
+.basketCheckoutR{
+    width: 136px;
+    height: 49px;
+    background-color:black;
+    color: white;
+    line-height: 49px;
+    text-align: center;
+    font-size: 15px;
+}

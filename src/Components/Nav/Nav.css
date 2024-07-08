@@ -1,0 +1,78 @@
+.nav{
+    width: 100%;
+    height: 100px;
+    background-color: #f9f9f9;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    width: 150px;
+    height: 65px;
+}
+.logo img{
+    object-fit: contain;
+}
+
+.navMenu{
+    width: 556px;
+    height: 18px;
+    margin-right: 20px;
+    /* font-size: 1.6rem; */
+    font-weight: 700;
+    display: flex;
+}
+.navMenu li{
+    height: 18px;
+    padding: 0 15px;
+    list-style: none;
+}
+.navMenu li a{
+    text-decoration: none;
+}
+.searchBar{
+    width: 300px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+.searchImg{
+    width: 16px;
+    height: 16px;
+    object-fit: contain;
+}
+.searchText{
+    width: 234px;
+    height: 14px;
+    margin-left: 38px;
+
+}
+.searchText input{
+    color: #7a7a7a;
+    border: none;
+}
+.navRight{
+    width: 278px;
+    height: 64px;
+    display: flex;
+    align-items: center;
+}
+
+.cart a img{
+    width: 18px;
+    height: 21px;
+    object-fit: contain;
+}
+.SignSec{
+    width: 166px;
+    height: 39px;
+    margin-left: 56px;
+    display: flex;
+    align-items: center;
+}
+.SignSec a button{
+    width: 77px;
+    height: 40px;
+}

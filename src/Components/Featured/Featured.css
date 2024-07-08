@@ -1,0 +1,88 @@
+/* banner part */
+.banner{
+    width: 100%;
+    height: 400px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bannerDesF{
+    width: 550px;
+    height: 300px;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    font-weight: 200;
+}
+.bannerImgF{
+    width: 650px;
+    height: 400px;
+    background-image: url(https://salinaka-ecommerce.web.app/images/banner-guy.fbf4f0f7396fe31ca288dc1dd9822342.png);
+    background-position: 50% 50%;
+    background-size: cover;
+}
+
+/* featured part */
+
+
+.displayF{
+    width: 100%;
+    height: 940px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.displayProductF{
+    width: 1201px;
+    height: 940px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px;
+}
+.displayF ul{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+}
+.displayF ul li{
+    width: 385px;
+    height: 298px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border: 1px solid grey;
+    margin-bottom: 10px;
+    margin-right: 10px;
+
+}
+.displayF ul li img{
+    width: 385px;
+    height: 200px;
+    background-color: #f1f1f1;
+    object-fit: contain;
+}
+.displayF h1{
+    width: 303px;
+    height: 27px;
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 20px;
+}
+.displayF h2{
+    width: 303px;
+    height: 24px;
+    font-size: 11px;
+    font-weight: 700;
+    font-style: italic;
+    color: #818181;
+    margin-left: 20px;
+}
+.displayF a{
+    text-decoration: none;
+}

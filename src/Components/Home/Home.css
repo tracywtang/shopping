@@ -1,0 +1,218 @@
+/* banner part */
+.banner{
+    width: 100%;
+    height: 400px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bannerDes{
+    width: 550px;
+    height: 300px;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.banner h1{
+    width: 440px;
+    height: 110px;
+    margin-top: 32px;
+    margin-bottom: 10px;
+    margin-left: 0;
+    font-weight: 400;
+    font-size: 55px;
+}
+.banner p{
+    width: 550px;
+    height: 48px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    font-size: 15px;
+}
+.banner a{
+    text-decoration: none;
+}
+.banner a button{
+    width: 124px;
+    height: 18px;
+    padding: 16px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.buttonText{
+    width: 76px;
+    height: 17px;
+    color: white;
+}
+.buttonImg{
+    width: 15px;
+    height: 15px;
+    background-color: white;
+    /* background-image: url(./arrow-right-solid.svg); */
+    background-size: 100% 100%;
+}
+.bannerImg{
+    width: 650px;
+    height: 400px;
+    background-image: url(https://salinaka-ecommerce.web.app/images/banner-girl.789f1fa6f451ad26c5039fcbc049ace7.png);
+    background-size: 100% 100%;
+}
+
+/* featured part */
+.display ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0;
+}
+.display ul li{
+    width: 385px;
+    height: 298px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border: 1px solid grey;
+    margin-bottom: 10px;
+}
+.display ul li img{
+    width: 386px;
+    height: 200px;
+    background-color: #f1f1f1;
+    object-fit: contain;
+}
+.display h1{
+    width: 303px;
+    height: 27px;
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 20px;
+}
+.display h2{
+    width: 303px;
+    height: 24px;
+    font-size: 11px;
+    font-weight: 700;
+    font-style: italic;
+    color: #818181;
+    margin-left: 20px;
+}
+
+.display{
+    width: 100%;
+    height: 700px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.displayHeader{
+    width: 1301px;
+    height: 79px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.DHLeft{
+    width: 327px;
+    height: 36px;
+    margin-top: 21px;
+    margin-bottom: 21px;
+    font-size: 30px;
+}
+.DHRight{
+    width: 59px;
+    height: 20px;
+}
+.displayProduct{
+    width: 1301px;
+    height: 620px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0px;
+}
+
+/* Recommened part */
+.display ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0;
+}
+.display ul li{
+    width: 385px;
+    height: 298px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border: 1px solid grey;
+    margin-bottom: 10px;
+}
+.display ul li img{
+    width: 386px;
+    height: 200px;
+    background-color: #f1f1f1;
+    object-fit: contain;
+}
+.display h1{
+    width: 303px;
+    height: 27px;
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 20px;
+}
+.display h2{
+    width: 303px;
+    height: 24px;
+    font-size: 11px;
+    font-weight: 700;
+    font-style: italic;
+    color: #818181;
+    margin-left: 20px;
+}
+
+.display{
+    width: 100%;
+    height: 700px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.displayHeader{
+    width: 1301px;
+    height: 79px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.DHLeft{
+    width: 327px;
+    height: 36px;
+    margin-top: 21px;
+    margin-bottom: 21px;
+    font-size: 30px;
+}
+.DHRight{
+    width: 59px;
+    height: 20px;
+}
+.displayProduct{
+    width: 1301px;
+    height: 620px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0px;
+}
+.displayProduct a{
+    text-decoration: none;
+}
